@@ -1,5 +1,5 @@
 <template>
-<p>hi,jack</p>
+<p>hi,jack,how are you?</p>
 </template>
 
 <script>
