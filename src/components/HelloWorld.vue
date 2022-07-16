@@ -1,7 +1,5 @@
 <template>
-<h1>last check-er-xun--ppp</h1>   
-<p>1201102321</p>
-
+<p>123321</p>
 </template>
 
 <script>
