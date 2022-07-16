@@ -1,6 +1,7 @@
 <template>
 <p>hi,jack,how are you?</p>
 <h1>i am fine!</h1>
+<h2>thank you!</h2>
 </template>
 
 <script>
