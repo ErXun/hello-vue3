@@ -1,5 +1,5 @@
 <template>
-<p>hi,kang-kang</p>
+<p>hi,jack</p>
 </template>
 
 <script>
