@@ -1,5 +1,6 @@
 <template>
 <h1>呵呵</h1>   
+<h2>哈哈哈哈</h2>
 </template>
 
 <script>
