@@ -1,15 +1,14 @@
 <template>
-  <HelloWorld />
+  <!-- <Study /> -->
+  <Default msg="哈哈哈" school="炳辉" @change="change"></Default>
 </template>
 
-<script>
-import HelloWorld from "./components/HelloWorld.vue";
+<script setup>
+import Default from "./components/Default.vue";
+// import Study from "./components/Study.vue";
 
-export default {
-  name: "App",
-  components: {
-    HelloWorld,
-  },
+const change = (val) => {
+  console.log("val", val);
 };
 </script>
 
