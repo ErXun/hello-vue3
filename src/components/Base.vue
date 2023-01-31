@@ -32,7 +32,12 @@ import {
   isReadonly,
   customRef,
 } from "@vue/reactivity";
-import { watch, watchEffect } from "@vue/runtime-core";
+import {
+  onBeforeMount,
+  onMounted,
+  watch,
+  watchEffect,
+} from "@vue/runtime-core";
 export default {
   name: "",
   setup() {
@@ -131,6 +136,13 @@ export default {
       console.log("---newValue", newValue);
     });
 
+    onBeforeMount(() => {
+      console.log("onBeforeMount");
+    });
+    onMounted(() => {
+      console.log("onMounted");
+    });
+
     return {
       count,
       sCount,
@@ -144,6 +156,12 @@ export default {
       changeSrState,
       iName,
     };
+  },
+  beforeMount() {
+    console.log("beforeMount");
+  },
+  mounted() {
+    console.log("mounted");
   },
 };
 </script>
